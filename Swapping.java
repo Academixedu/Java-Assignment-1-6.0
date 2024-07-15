@@ -3,4 +3,10 @@ public class Swapping {
  int a=3;
  int b=45;
  int temp;
-    }}
+ temp=a;
+ a=b;
+ b=temp;
+ System.out.println(a);
+ System.out.println(b);
+}
+}
